@@ -20,4 +20,4 @@ function verifyProof(proof, leaf, root) {
   return bytesToHex(data) === root;
 }
 
-module.exports = verifyProof;
+module.exports = verifyProof
